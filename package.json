@@ -1,0 +1,30 @@
+{
+  "name": "duel-io-structure",
+  "version": "1.0.0",
+  "description": "Structure styling and layout for DUEL",
+  "main": "index.js",
+  "repository": "https://github.com/nathanziarek/duel.io.structure.git",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/gulp test",
+    "watch": "./node_modules/.bin/webpack-dev-server --progress --colors",
+    "build": "./node_modules/.bin/webpack -p"
+  },
+  "keywords": [ ],
+  "author": "Nathan Ziarek",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "html-minifier": "^1.0.0",
+    "marky-markdown": "^5.5.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}

@@ -1,0 +1,3 @@
+# Site Structure
+
+The site structure is built around...

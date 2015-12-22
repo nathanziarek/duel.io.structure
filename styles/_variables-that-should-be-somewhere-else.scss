@@ -1,4 +1,8 @@
-$primary-color: #00619b;
+$primary-color: #007bc4;
 $grid-base: 15px;
 
-* { box-sizing: border-box }
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}

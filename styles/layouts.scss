@@ -1,0 +1,11 @@
+/* Task-based Layout */
+
+.lay-task {
+    background: #eee;
+}
+
+@media (min-width: 700px) {
+    .lay-task {
+        padding-top: 60px
+    }
+}

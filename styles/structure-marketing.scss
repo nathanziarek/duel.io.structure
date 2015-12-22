@@ -1,0 +1,42 @@
+@import "~susy/sass/susy";
+@import "_variables-that-should-be-somewhere-else.scss";
+
+$susy: (
+  container: 960px,
+  global-box-sizing: border-box,
+  gutters: 0
+);
+
+.str-marketing {
+  
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  background: white;
+  
+  /* Create Susy container */
+  @include container;
+  max-width: 700px;
+  
+  /* "Mobile" styles */
+  .panel-no-semantics {
+    display: none;
+  }
+  .panel-content {
+    @include span(12 of 12 last)
+  }
+  
+  /* "Desktop" styles */
+  @media (min-width: 700px){
+        
+    .panel-no-semantics {
+      @include span(6 of 12);
+      display: block;
+      height: 450px;
+    }
+    .panel-content {
+      @include span(6 of 12 last);
+      height: 450px;
+    }
+  }
+
+}
+
